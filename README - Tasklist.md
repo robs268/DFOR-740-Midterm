@@ -7,6 +7,13 @@ There are a few differences between the orginal tasklist and my version:
 1) I wanted the parent PID done to be shown always
 2) I did not how /svc showed a lot of extra garbage, so I created a secondary flag (/svco) which will show only the programs that are using services
 
+Note: to run the program, you four files:
+            TasklistCSV.exe
+            TasklistCSV.dll
+            TasklistCSV.deps.json
+            TasklistCSV.runtimeconfig.json
+I chose to name it differently to ensure when testing I could if the real tasklist was running or was it my program that was running
+
 I did use Claude to help me with this program.
 
 # TasklistApp
